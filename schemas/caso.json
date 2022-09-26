@@ -1,0 +1,67 @@
+[
+    {
+        "name": "date",
+        "description": "Data de coleta dos dados no formato YYYY-MM-DD",
+        "type": "DATE"
+    },
+    {
+        "name": "state",
+        "description": "Sigla da unidade federativa",
+        "type": "STRING"
+    },
+    {
+        "name": "city",
+        "description": "Nome do município",
+        "type": "STRING"
+    },
+    {
+        "name": "place_type",
+        "description": "Tipo de local que esse registro descreve, pode ser city ou state",
+        "type": "STRING"
+    },
+    {
+        "name": "confirmed",
+        "description": "Número de casos confirmados",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths",
+        "description": "Número de mortes",
+        "type": "INTEGER"
+    },
+    {
+        "name": "order_for_place",
+        "description": "Número que identifica a ordem do registro para este local. O registro referente ao primeiro boletim em que esse local aparecer será contabilizado como 1 e os demais boletins incrementarão esse valor",
+        "type": "INTEGER"
+    },
+    {
+        "name": "is_last",
+        "description": "Campo pré-computado que diz se esse registro é o mais novo para esse local, pode ser True ou False",
+        "type": "BOOLEAN"
+    },
+    {
+        "name": "estimated_population_2019",
+        "description": "População estimada para esse município/estado em 2019, segundo o IBGE.",
+        "type": "INTEGER"
+    },
+    {
+        "name": "estimated_population",
+        "description": "População estimada para esse município/estado em 2020, segundo o IBGE",
+        "type": "INTEGER"
+    },
+    {
+        "name": "city_ibge_code",
+        "description": "Código IBGE do local",
+        "type": "INTEGER"
+    },
+    {
+        "name": "confirmed_per_100k_inhabitants",
+        "description": "Número de casos confirmados por 100.000 habitantes",
+        "type": "FLOAT"
+    },
+    {
+        "name": "death_rate",
+        "description": "Taxa de mortalidade (mortes / confirmados)",
+        "type": "FLOAT"
+    }
+]
