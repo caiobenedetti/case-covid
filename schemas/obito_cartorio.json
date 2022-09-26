@@ -1,0 +1,172 @@
+[
+    {
+        "name": "date",
+        "description": "Data de coleta dos dados no formato YYYY-MM-DD",
+        "type": "DATE"
+    },
+    {
+        "name": "state",
+        "description": "Sigla da unidade federativa",
+        "type": "STRING"
+    },
+    {
+        "name": "epidemiological_week_2019",
+        "description": "Número da semana epidemiológica para essa data em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "epidemiological_week_2020",
+        "description": "Número da semana epidemiológica para essa data em 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_indeterminate_2019",
+        "description": "Quantidade de óbitos de motivo indeterminado para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_respiratory_failure_2019",
+        "description": "Quantidade de óbitos em decorrência de insuficiência respiratória para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_others_2019",
+        "description": "Quantidade de óbitos em decorrência de outros motivos para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_pneumonia_2019",
+        "description": "Quantidade de óbitos em decorrência de pneumonia para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_septicemia_2019",
+        "description": "Quantidade de óbitos em decorrência de septicemia para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_sars_2019",
+        "description": "Quantidade de óbitos em decorrência de SRAG para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_covid19",
+        "description": "Quantidade de óbitos em decorrência de suspeita ou confirmação de covid19 para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_indeterminate_2020",
+        "description": "Quantidade de óbitos de motivo indeterminado para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_respiratory_failure_2020",
+        "description": "Quantidade de óbitos em decorrência de insuficiência respiratória para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_others_2020",
+        "description": "Quantidade de óbitos em decorrência de outros motivos para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_pneumonia_2020",
+        "description": "Quantidade de óbitos em decorrência de pneumonia para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_septicemia_2020",
+        "description": "Quantidade de óbitos em decorrência de septicemia para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_sars_2020",
+        "description": "Quantidade de óbitos em decorrência de SRAG para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_total_2019",
+        "description": "Quantidade de óbitos totais para o estado state acumulados no ano de 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "deaths_total_2020",
+        "description": "Quantidade de óbitos totais para o estado state acumulados no ano de 2020",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_indeterminate_2019",
+        "description": "Quantidade de óbitos de motivo indeterminado para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_respiratory_failure_2019",
+        "description": "Quantidade de óbitos em decorrência de insuficiência respiratória para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_others_2019",
+        "description": "Quantidade de óbitos em decorrência de outros motivos para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_pneumonia_2019",
+        "description": "Quantidade de óbitos em decorrência de pneumonia para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_septicemia_2019",
+        "description": "Quantidade de óbitos em decorrência de septicemia para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_sars_2019",
+        "description": "Quantidade de óbitos em decorrência de SRAG para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_covid19",
+        "description": "Quantidade de óbitos em decorrência de suspeita ou confirmação de covid19 para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_indeterminate_2020",
+        "description": "Quantidade de óbitos de motivo indeterminado para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_respiratory_failure_2020",
+        "description": "Quantidade de óbitos em decorrência de insuficiência respiratória para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_others_2020",
+        "description": "Quantidade de óbitos em decorrência de outros motivos para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_pneumonia_2020",
+        "description": "Quantidade de óbitos em decorrência de pneumonia para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_septicemia_2020",
+        "description": "Quantidade de óbitos em decorrência de septicemia para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_sars_2020",
+        "description": "Quantidade de óbitos em decorrência de SRAG para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_total_2019",
+        "description": "Quantidade de óbitos totais para o estado state ocorridos no dia/mês de date, porém em 2019",
+        "type": "INTEGER"
+    },
+    {
+        "name": "new_deaths_total_2020",
+        "description": "Quantidade de óbitos totais para o estado state ocorridos na data date",
+        "type": "INTEGER"
+    }
+]
